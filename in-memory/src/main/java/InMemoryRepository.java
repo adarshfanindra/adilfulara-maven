@@ -15,8 +15,8 @@ public class InMemoryRepository implements PersonRepository {
 
     private static final List<Person> persons = new ArrayList<Person> (){
         {
-          add(new Person("Adil Fulara", "Los Angeles"));
-          add(new Person("Asma Fulara", "Los Angeles"));
+          add(new Person("John Doe", "Los Angeles"));
+          add(new Person("Jane Doe", "Los Angeles"));
         }
 
     };
